@@ -16,6 +16,7 @@ pub mod iir;
 pub mod iir_int;
 mod lockin;
 pub use lockin::*;
+pub mod pid;
 mod lowpass;
 pub use lowpass::*;
 mod pll;

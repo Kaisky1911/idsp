@@ -1,6 +1,5 @@
 use serde::{Deserialize, Serialize};
 
-use super::{abs, copysign, macc};
 use core::iter::Sum;
 use num_traits::{clamp, Float, One, Zero};
 
